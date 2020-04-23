@@ -1,3 +1,38 @@
 body{
     
 }
+
+<img src = "./img/list-bg.png">
+
+@font-face {
+    font-family: 'Yellowtail';
+    src:url('Yellowtail.ttf.woff') format('woff'),
+        url('Yellowtail.ttf.svg#Yellowtail') format('svg'),
+        url('Yellowtail.ttf.eot'),
+        url('Yellowtail.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Droid-Serif';
+    src:url('Droid-Serif.ttf.woff') format('woff'),
+        url('Droid-Serif.ttf.svg#Droid-Serif') format('svg'),
+        url('Droid-Serif.ttf.eot'),
+        url('Droid-Serif.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1{
+    font-family: 'Yellowtail';
+}
+
+p {
+    font-family: 'Droid-Serif';
+}
+
+h2{
+    font-family: 'Helvetica';
+}
