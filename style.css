@@ -1,53 +1,65 @@
 body{
-    max-width: 85%;
-    margin: 0px 400px;
-}
+    margin: 0px 200px;
 
-
-
-@font-face {
-    font-family: 'Yellowtail';
-    src:url('Yellowtail.ttf.woff') format('woff'),
-        url('Yellowtail.ttf.svg#Yellowtail') format('svg'),
-        url('Yellowtail.ttf.eot'),
-        url('Yellowtail.ttf.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Droid-Serif';
-    src:url('Droid-Serif.ttf.woff') format('woff'),
-        url('Droid-Serif.ttf.svg#Droid-Serif') format('svg'),
-        url('Droid-Serif.ttf.eot'),
-        url('Droid-Serif.ttf.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
 }
 
 
 h1{
     font-family: "Yellowtail";
-    font-size: 30px;
+    font-size: 36px; 
+    line-height: .05;
+    padding: 15px 0px 0px 0px;
 }
 
+header{
+   
+    padding-top: 40px;
+}
 
+header ul {
+    float: right;
+}
 
-h2{
-    font-family: 'Helvetica';
+#title {
+    display: inline-block;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: ultra-condensed;
     font-size: 30px;
 }
 
 h3 {
     font-size: 12px;
-    margin-left: 100px;
+    margin-left: 55px;
     font-family: "Abel";
+   
 }
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: ultra-condensed;
+    font-size: 20px;
+}
+
+#title h3{
+    margin-left: 0px;
+}
+#print {
+    display:inline-flex;
+    margin-left: 700px;
+}
+
+#print h3 {
+    margin-left: 5px;
+}
+
 #ingredient-list{
-    list-style-type: square;
+    list-style-type: square ;
     list-style-position: inside;
     background-image: url(./img/list-bg.png);
-    padding: 50px;
+    padding: 30px 70px;
     column-count: 2; 
     background-repeat: none; 
 }
@@ -60,17 +72,18 @@ h3 {
 
 
 nav {
-    display: inline-flex;
-
+    display: inline;
 }
 
 nav > ul{
     display: inline-flex;
-    align-content: space-around;
-    justify-content: space-evenly;
+    margin-top: -30px;
+}
 
-#hero {
+#hero-image {
     margin: 20px 0px;
+    width: 100%;
+    
 }
 
 #recipe {
@@ -81,10 +94,11 @@ nav > ul{
 }
 
 #ingredients {
-    
-    
     max-width: 85%;
     height: 100px;
+    margin: 30px 0px 100px;
+    font-family: 'Patrick Hand', cursive;
+    font-size:20px;
 
 }
 
@@ -93,44 +107,53 @@ p {
     font-family: 'Droid-Serif';
 }
 
-#slash {
+hr {
     background-image: url(./img/hr-img.png);
     background-repeat: repeat-x;
     border: none;
-    color: #dddddd;
+    color: transparent;
     background-position: center;
-    background-color: transparent;
-    padding: 50px;
-
+    padding: 30px;
 }
 
-article{
-    display: inline-flex;
-    align-content: space-around;
-    justify-content: space-evenly;
-    width: 100%;
-    /* padding: 50px; */
+
+article {
+    font-size: 16px;
+    font-family: 'Droid-Serif';
+    margin-left: 200px;
+    margin-top: -80px;
+    width: 500px;
 }
 
-article > p{
-    display: block;
+#about img {
+    height: 100px;
+}
 
+#about {
+    display: inline;
 }
 
 #small-logo{
     margin-bottom: -20px;
     z-index: 100;
     justify-content: center;
-    margin-left: 400px;
+    margin-left: 480px;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    color: white;
+    background-color: rgb(199, 97, 80);
+    margin-left: 850px;
+    margin-top: -100px;
 }
 
 footer {
-    width: 100%;
     border-top: 1px solid gray;
     color: gray;
     text-align: center;
-    line-height: 0.8;
-    padding-top: 50px;
+    padding: 50px;
     z-index: 0;
     font-family: 'Droid-Serif';
 }
